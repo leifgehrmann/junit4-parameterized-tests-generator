@@ -1,0 +1,36 @@
+{
+  "name": "junit4-parameterized-tests-generator",
+  "version": "0.0.1",
+  "description": "Script to generate parameterized JUnit4 tests for Test Runners that do not support parameterized tests",
+  "main": "generateParameterizedTests.js",
+  "scripts": {
+    "lint": "eslint \"generateParameterizedTests.js\" \"tests/**/*.js\"",
+    "format": "prettier --write\"generateParameterizedTests.js\" \"tests/**/*.js\"",
+    "test": "jest --config jestconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leifgehrmann/junit4-parameterized-tests-generator.git"
+  },
+  "keywords": [
+    "java",
+    "junit4",
+    "parameterized",
+    "tests"
+  ],
+  "author": "Leif Gehrmann",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/leifgehrmann/junit4-parameterized-tests-generator/issues"
+  },
+  "homepage": "https://github.com/leifgehrmann/junit4-parameterized-tests-generator#readme",
+  "devDependencies": {
+    "dir-compare": "^1.8.0",
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1",
+    "recursive-copy": "^2.0.10"
+  }
+}
