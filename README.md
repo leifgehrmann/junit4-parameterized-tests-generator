@@ -1,6 +1,7 @@
 # junit4-parameterized-tests-generator
 
 [![Build Status](https://github.com/leifgehrmann/junit4-parameterized-tests-generator/workflows/Tests/badge.svg?branch=master)](https://github.com/leifgehrmann/junit4-parameterized-tests-generator/actions)
+[![Code Coverage](https://codecov.io/gh/leifgehrmann/junit4-parameterized-tests-generator/branch/master/graph/badge.svg)](https://codecov.io/gh/leifgehrmann/junit4-parameterized-tests-generator)
 
 Script to generate parameterized JUnit-4 tests for test runners that do not
 support parameterized tests.
@@ -8,7 +9,7 @@ support parameterized tests.
 ## Purpose
 
 JUnit-4 has a design flaw where [test runners] cannot be combined to perform
-multiple behaviours. For example, JUnit's [`Parameterized`] test runner cannot
+multiple behaviors. For example, JUnit's [`Parameterized`] test runner cannot
 be combined with [`RobolectricTestRunner`], or any other test runner because
 only one `@RunWith` annotation is permitted per class.
 
@@ -81,7 +82,7 @@ $ node generateParameterizedTests.js path/to/tests
 
 To avoid having to run the generator manually, a task can be added to your
 `build.gradle` file to run the script on `preBuild`, or any other preferred
-gradle task.
+Gradle task.
 
 ```gradle
 task generateParameterizedTests(type: Exec) {
