@@ -13,7 +13,7 @@ test('Test Cases all handled correctly', async () => {
   process.argv = [null, null, actual];
 
   // eslint-disable-next-line global-require
-  require('./../generateParameterizedTests.js');
+  require('../generateParameterizedTests.js');
 
   const result = dircompare.compareSync(expected, actual, { compareContent: true });
   expect(result.same).toBe(true);
