@@ -6,7 +6,7 @@ test('Test exception is thrown on nonExistentDirectory', () => {
 
   try {
     // eslint-disable-next-line global-require
-    require('./../generateParameterizedTests.js');
+    require('../generateParameterizedTests.js');
   } catch (e) {
     expect(e.message).toMatch('');
   }
