@@ -28,8 +28,8 @@
     "dir-compare": "^2.2.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
-    "eslint-plugin-import": "^2.20.1",
-    "jest": "^25.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "jest": "^25.2.4",
     "prettier": "^1.19.1",
     "recursive-copy": "^2.0.10"
   }
