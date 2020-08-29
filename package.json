@@ -30,7 +30,7 @@
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0",
     "jest": "^26.4.2",
-    "prettier": "^2.0.5",
-    "recursive-copy": "^2.0.10"
+    "prettier": "^2.1.1",
+    "recursive-copy": "^2.0.11"
   }
 }
