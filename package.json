@@ -26,11 +26,11 @@
   "homepage": "https://github.com/leifgehrmann/junit4-parameterized-tests-generator#readme",
   "devDependencies": {
     "dir-compare": "^2.3.0",
-    "eslint": "^7.8.1",
+    "eslint": "^7.9.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0",
     "jest": "^26.4.2",
-    "prettier": "^2.1.1",
+    "prettier": "^2.1.2",
     "recursive-copy": "^2.0.11"
   }
 }
