@@ -3,6 +3,8 @@
 [![Build Status](https://github.com/leifgehrmann/junit4-parameterized-tests-generator/workflows/Tests/badge.svg?branch=master)](https://github.com/leifgehrmann/junit4-parameterized-tests-generator/actions)
 [![Code Coverage](https://codecov.io/gh/leifgehrmann/junit4-parameterized-tests-generator/branch/master/graph/badge.svg)](https://codecov.io/gh/leifgehrmann/junit4-parameterized-tests-generator)
 
+**This project is no longer maintained. Feel free to fork. If it is useful to anyone, let me know!**
+
 Script to generate parameterized JUnit-4 tests for test runners that do not
 support parameterized tests.
 
